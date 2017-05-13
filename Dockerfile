@@ -12,6 +12,8 @@ LABEL description="JBoss Developer Studio IDE - from Rich Lucente"
 
 ENV HOME /home/jbdsuser
 
+USER root
+
 # Create installation directory and set the openbox window manager
 # configuration for all users
 RUN    mkdir -p /usr/share/devstudio \
