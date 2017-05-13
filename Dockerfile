@@ -2,7 +2,7 @@
 #                   JBoss Developer Studio via HTML5                   #
 ########################################################################
 
-FROM bit4man/fedorax11:0.1
+FROM docker.io/bit4man/fedorax11:0.1
 
 MAINTAINER Peter Larsen <plarsen@redhat.com>
 
